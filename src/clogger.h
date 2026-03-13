@@ -5,6 +5,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void clogg(char *log, char *content, char *type, bool print);
+void clogg(char *log, char *type, char *content, bool print);
 
 #endif
