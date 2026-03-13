@@ -2,6 +2,6 @@
 
 int main()
 {
-    clogg("test.txt", "works", "SUCCESS"); 
-    clogg("test.txt", "another one", "WORKS");
+    clogg("test.txt", "works", "SUCCESS", true); 
+    clogg("test.txt", "another one", "WORKS", true);
 }
