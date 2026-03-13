@@ -1,8 +1,18 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(test C)
+project(clogger C)
 
-add_executable(test
-    src/test/main.c 
+add_library(clogger
     src/clogger.c
 )
+
+add_executable(clogtest 
+    src/test/main.c
+)
+
+target_include_directories(clogger
+    PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src
+)
+
+target_link_libraries(clogtest clogger)
+
