@@ -1,6 +1,25 @@
 # Clogger
 A simple logger for C.
 
+# Setup
+Cmake is required , so install it if you dont:
+- Debian based:
+```
+sudo apt install cmake
+```
+- Arch based:
+```
+sudo pacman -S cmake
+```
+- Build and install:
+```
+git clone https://github.com/yourname/clogger.git
+cd clogger
+mkdir build && cd build
+cmake ..
+sudo cmake --install .
+```
+Now you can use from anywhere!
 # Function
 ## Main function:
 ```

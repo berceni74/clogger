@@ -16,3 +16,5 @@ target_include_directories(clogger
 
 target_link_libraries(clogtest clogger)
 
+install(TARGETS clogger DESTINATION lib)
+install(FILES src/clogger.h DESTINATION include)
